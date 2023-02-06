@@ -1,2 +1,3 @@
 # adventure_unisys2200_mapper
-Colossal Cave Adventure on the Unisys 2200, written in Mapper
+2002-09-30
+Source code and table info for Adventure on Unisys 2200 - Mapper.
