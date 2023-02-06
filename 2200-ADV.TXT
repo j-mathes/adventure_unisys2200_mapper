@@ -1,0 +1,426 @@
+DATE            17:18:57  RID     41D   07 SEP 02  42R1A3-1                                                                         
+@271231 Adventure Game:                                                                                                             
+===============================================================================                                                     
+L1=31,2=32,3=34,4=36,5=37,7=46,8=56,9=58,10=59,11=72,12=73,13=80,14=83                                                              
+L15=89,16=91,17=96,18=97,19=101,20=107,21=108,22=109,23=110,24=111,25=112                                                           
+L26=113,27=116,28=118,29=122,30=123,31=128,32=129,33=130,38=132,39=134                                                              
+L40=135,41=136,50=140,51=146,52=152,53=155,57=160,58=161,59=163,60=164                                                              
+L61=166,62=168,63=171,64=176,65=177,66=179,67=183,68=30,69=185,70=187                                                               
+L71=190,72=192,73=196,74=207,75=238,76=265,77=293,78=297,79=303,80=306                                                              
+L81=308,82=312,83=317,84=320,85=333,86=334,87=337,88=339,89=342,90=344                                                              
+L91=345,92=346,93=347,94=359,95=361,96=375,97=388,98=390,99=391,100=392                                                             
+L101=393,102=394,103=395,110=63,125=399,126=283,127=286,160=197,161=203                                                             
+L162=210,163=216,164=219,165=229,166=230,167=231,169=236,170=237,171=239                                                            
+L172=242,173=249,174=252,176=257,179=262,180=263,182=272,183=275,184=281                                                            
+L185=387,189=350,190=353,191=354,192=355                                                                                            
+ldv <rpx>i4=42,<t7>i3,<t8>i3,<t9>i3,<dc>i6=0 chg <lm>i3 scnv$ -1 .                                                                  
+ldv,w <sd>i12=time$(8-1)time$(7-1)time$(5-1)time$(4-1)time$(2-1)time$(1-1) .                                                        
+ldv <s>s105=018025023024021052000071074058059069066082100007049007007007007012\                                                     
+13040038069000046000000015060082022000,<p>s39=01601701902002504704805906006107\                                                     
+076098,<rid>i4=0,<t1>i3=4 rsr 52 .                                                                                                  
+juv,z <t1> ldv <l1>i3=<t1>,<l2>i3=<t1>,<l>i3=0,<d0>i3=2,<g>i3=0,<b0>i3=1,<b1>i\                                                     
+=0,<b2>i3=0,<s1>i3=1,<d1>i3=1,<d2>i3=0,<t>i3=1,<p1>i3=0,<ch>i3=0,<d3>i3=0,<b3>\                                                     
+3=0,<m1>i3=100,<m2>i3=35,<m3>i3=103,<r0>i3=0,<c0>i3=0,<k>s<m3>=,<v>s<m1>='' .                                                       
+rdl,etype$,<rpx>,2 35-3 <t1>i3 brk rdc,etype$,<rpx>,<t1> 1-80 <msg>s80 .                                                            
+msg>                                                                                                                                
+brk rnm -1 ldv <ln>i3=2,<mn>i4=325 rsr 50 .                                                                                         
+ldv <ls>i3=<ln> brk out,-0,2,scnv$,1,1 .                                                                                            
+if input$(1-1) ne Y,(1) ;ldv <mn>=326 rsr 50 .                                                                                      
+chg invar$ <t1> brk out,-0,2,scnv$,1,1 .                                                                                            
+68:.                                                                                                                                
+1:ldv <lx>i3=1 chg <t1>i3 <l1> +4 rdl,etype$,<rpx>,<t1> 6-47 <loc>s47 .                                                             
+2:if <l1> < 13,(3) ;if <l1> = 58,(3) ;if <l> = 1 if <s>(52-3) = <l1>,-1,(3) ;.                                                      
+ldv <mn>=284 gto 5 .                                                                                                                
+3:if <k>(68-1) = 1 chg <mn> <l1> +100 gto 4 ;ldv <mn>=<l1> .                                                                        
+if <d0> = 0,(4),1 inc,100 <mn> . ;if <v>(<l1>-1) = '' inc,100 <mn> ;.                                                               
+4:ldv <v>(<l1>-1)=1 .                                                                                                               
+5:ldv,r <ln>=2 brk rsr 50 .                                                                                                         
+if <mn> = 284,(lin 3) ;ldv <t5>i3=1,<t6>i3=1 .                                                                                      
+if <t6> = 26,32 . ;if <s>(<t5>-3) = <l1> chg <mn> <t6> +200 rsr 50 ;.                                                               
+if <t6> < <m2> inc <t6> inc,3 <t5> gto lin -1 ;.                                                                                    
+if <l1> < 13,(110) ;ldv <t1>i3=100 rsr 52 .                                                                                         
+ldv <t5>=<t1> if <d3> ne 0,(lin 2) ;if <t5> > 5,(10) ;.                                                                             
+ldv <d3>=1,<s>(79-3)=<l1>,<mn>=323 gto 8 .                                                                                          
+if <s>(103-3) ne <l1>,(9) ;if <t5> > 50,(10) ;ldv <mn>=271 rsr 50 .                                                                 
+if <t5> > 20 ldv <mn>=330 gto 8 ;ldv <s>(103-3)=000,<mn>=329 rsr 50 .                                                               
+7:inc <r0> if <r0> = 3,(190),2 ldv <mn>=320 rsr 50 ;.                                                                               
+ldv <mn>=318 rsr 50 .                                                                                                               
+chg invar$ <t1> brk out,-0,2,scnv$,<lx>,1 .                                                                                         
+if input$(1-1) ne Y,(192) ;chg <t5> curv$ +1 if <t5> > 18 ldv <t5>=1 ;.                                                             
+ldv <mn>=319 rsr 50 .                                                                                                               
+brk out,-0,2,scnv$,<t5>,,,q .                                                                                                       
+ldv <s>(52-3)=007,<l>=0,<t5>=1,<t6>=1 wat 5000 .                                                                                    
+if <s>(<t5>-3) = -1 ldv <s>(<t5>-3)=<l1> ;.                                                                                         
+if <t6> < <m2> inc <t6> inc,3 <t5> gto lin -1 ;ldv <t1>i3=4 rsr 52 .                                                                
+ldv <l1>=<t1>,<l2>=<t1> gto 1 .                                                                                                     
+8:rsr 50 .                                                                                                                          
+gto 10 .                                                                                                                            
+9:if <t5> le 10 ldv <s>(103-3)=<l1> ;.                                                                                              
+10:lcv b16 <s>(1-45) -1 ,<t6> if <t6> = 0,(110) ;ldv <t1>i3=4 rsr 52 .                                                              
+if <t6> < <t1>,(110) ;ldv <t1>i3=100 rsr 52 .                                                                                       
+ldv <mn>=273 if <t1> > 5 . ;ldv <mn>=272 lcv t~ <s>(1-45) '-1 '/100 .                                                               
+rsr 50 .                                                                                                                            
+110:if <l1> = 10,11 chg <mn> 249 +<g> rsr 50 ;.                                                                                     
+if <l1> = 19,20 if <b2> ne 0 ldv <mn>=253 rsr 50 ;.                                                                                 
+if <l1> ne 26,(lin 2) ;ldv <t1>i3=100 rsr 52 .                                                                                      
+if <t1> > 30 ldv <mn>=280 rsr 50 ;.                                                                                                 
+if <l1> = 73 if <d2> = 0 ldv <mn>=296 rsr 50 ;.                                                                                     
+if <l1> = 60,61 if <t> = 1 ldv <mn>=306 rsr 50 ;.                                                                                   
+if <l1> = <s>(76-3) chg <mn> 308 +<b1> rsr 50 ;.                                                                                    
+if <l1> = 48,50 chg <mn> 286 +<p1> rsr 50 ;.                                                                                        
+inc <ln> ldv <ls>=<ln> if <ls> > 19 ldv <ls>=12 ;brk out,-0,2,scnv$,1,,,q .                                                         
+11:ldv <f>i3=0 .                                                Solicit command                                                     
+12:chg invar$ <c>s72 .                                                                                                              
+sc '' pc,scnv$,5;eel;tic$'Your command'soe$	tic$ .                                                                                  
+if curv$ = 0,(12) ;ldv,lu <c>,<t1>i3=1 def,p <t5>,<c> if <t5> = 0,(12) ;.                                                           
+def <t6>,<c>(<t1>-1) if <t6> = 1,2,(lin 2) ;.   Eliminate all but A-Z,0-9,-,"."                                                     
+if <c>(<t1>-1) = '.','-' . ;ldv <c>(<t1>-1)='' ;.                                                                                   
+if <t1> < <t5> inc <t1> gto lin -2 ;ldv,l <c> def,p <t5>,<c> if <t5> = 0,(12) .                                                     
+if <c>(<t5>-1) = '.' . ;chg <t6> <t5> +1 ldv <c>(<t6>-1)='.' .                                                                      
+13:ldv,l <c> def,p <t5>,<c> if <t5> = 0,(12) ;lcv,12 b1 <c> '.'/' ' <t1>i3 .                                                        
+ldv <c1>s<t1>=<c>(1-<t1>),<c>(1-<t1>)='',<k>='' .                 Parse command                                                     
+if <f> > 0 ldv <k>(<f>-1)=1 ;ldv <t2>i3=1,<t3>i3=1 .                                                                                
+14:lcv,13 t~ <c1>(<t2>-0) ' ' <t3> if <t3> = <t2>,(15) ;.            Parse word                                                     
+chg <t5> <t3> -<t2> ldv,p <c2>s72=<c1>(<t2>-<t5>) .                                                                                 
+ldv <t2>=<t3> loc,-1,4,15 afmt~ 2-79 ' '<c2>' ' <t4>,<t5> dec,2 <t4> . Keyword?                                                     
+rdl,-1,<t5> <t4>-3 <t5> ldv <k>(<t5>-1)=1 .                             Flag it                                                     
+if <t5> = 16 lcv,lin+1 n <k>(60-0) 1 ldv <k>(79-1)=1 gto lin 2 ;.                                                                   
+if <t5> = 17 lcv,lin+1 n <k>(60-0) 1 ldv <k>(86-1)=1 ;.                                                                             
+15:inc <t2> if <t2> < <t1>,(14) ;.                                                                                                  
+lcv,17 '' <k>(36-11) 1 <t5> if <f> > 0,(17) ;ldv <f>=<t5> . Any keywords 36-46?                                                     
+16:ldv <mn>=-328 rsr 50 .            "What do you want to do with the .<t5>. ?"                                                     
+ldv <c1>s80=<msg> chg <mn> -361 -<t5> rsr 50 .                                                                                      
+def,p <t4>,<c1> inc,2 <t4> ldv,p <c2>s20=<msg> ldv <c1>(<t4>-0)=<c2>? .                                                             
+ldv,p <m>s80=<c1> sc q pc,<ln>,5;eel;tic$<m>tic$;pc,+1,5;eel .                                                                      
+inc <ln> if <ln> ge <lm> ldv,r <ln>=<ls> ;gto 12 .                                                                                  
+17:lcv,59 n <k>(60-0) 1 <t5> lcv,57 '' <k>(50-10) 1 <t5> .                                                                          
+18:chg <t2>i3 <t5> -49 chg <t4> <t5> -50 *4 +9 ldv <t5>=<loc>(<t4>-3) .    Move                                                     
+ldv <f>=0 if <t5> > 0 . ;ldv <mn>=-236 gto 40 .                   Move allowed?                                                     
+if <l1> = 10,(20),11,(21),17,(22),19,(23),20,(24),22,(25),44,(26),39,(27),57,\                                                      
+8,(28),60,(29),61,(30),73,(39),82,(31) ;.                     Special location?                                                     
+19:ldv <l2>=<l1>,<l1>=<t5> if <s>(103-3) = <l2> ldv <s>(103-3)=<l1> ;. Move 'em                                                     
+if <b1> = 2 if <s>(76-3) = <l2> ldv <s>(76-3)=<l1> ;.       Dwarf & bear follow                                                     
+if <l> = 1 if <s>(52-3) = -1,<l1>,(1) ;ldv <t4>=1 .                Dark?  Pits?                                                     
+if <p>(<t4>-3) = <l1> . ;if <t4> < 37 inc,3 <t4> gto lin -0 ;gto 1 .                                                                
+brk ldv,r <lx>=1,<ln>=2,<mn>=283 rsr 50 .                         Fell into pit                                                     
+gto 7 .                                                                                                                             
+20:if <t2> = 5,10 if <g> = 0 ldv <mn>=-249 gto 40 ;gto 19 .       Grate locked?                                                     
+21:if <t2> = 3,9 if <g> = 0 ldv <mn>=-249 gto 40 ;gto 19 .                                                                          
+22:if <t2> = 9 if <s>(1-3) = -1 ldv <mn>=-277 gto 40 ;gto 19 .            Dome?                                                     
+23:if <t2> = 7 if <b2> = 0 ldv <mn>=-242 gto 40 ;gto 19 .              Fissure?                                                     
+24:if <t2> = 3 if <b2> = 0 ldv <mn>=-242 gto 40 ;gto 19 .                                                                           
+25:if <t2> ne 3 & ne 9 if <s1> ne 0 ldv <mn>=-289 gto 40 ;gto 19 .       Snake?                                                     
+26:if <t2> = 3,7,(19) ;ldv <t1>i3=100 rsr 52 .                    Little holes?                                                     
+if <t1> > 49 ldv <mn>=291 gto 32 ;chg <t1> <t1> //10 *3 +13 .                                                                       
+ldv <t5>=<p>(<t1>-3) gto 19 .                   Pick random location with a pit                                                     
+27:ldv <t1>=100 rsr 52 .                                      More little holes                                                     
+if <t1> < 10 ldv <t5>=038 gto 19 ;ldv <mn>=291 gto 32 .                                                                             
+28:if <l1> = 57 if <t2> = 3 . ;if <l1> = 58 if <t2> = 7 . ;gto 19 .                                                                 
+ldv <t1>i3=1,<t3>i3=1 .                        Only emerald fits through tunnel                                                     
+if <t1> ne 10 if <s>(<t3>-3) = -1 ldv <mn>=-292 gto 40 ;.                                                                           
+if <t1> < <m2> inc <t1> inc,3 <t3> gto lin -1 ;gto 19 .                                                                             
+29:if <t2> ne 2,(19) ;gto lin 2 .                             SW side of bridge                                                     
+30:if <t2> ne 6,(19) ;.                                       NE side of bridge                                                     
+if <t> = 0,(19),1,(lin 2),2 . ;ldv <t>=2 gto 19 .                         Troll                                                     
+ldv <t>=1,<mn>=295 rsr 53 .                                          Blocks way                                                     
+if <s>(76-3) ne <l1> ldv <mn>=-294 gto 40 ;.         Wants treasure if not bear                                                     
+ldv <t>=0,<s>(76-3)=069,<mn>=267 gto 32 .                        Chased by bear                                                     
+31:if <s>(97-3) = <l1> if <d1> = 1 ldv <mn>=290 . ;gto 19 .             Dragon?                                                     
+32:brk if <ln> > 21 ldv,r <ln>=<ls> ;ldv <t6>=<ln> rsr 50 .   Multiline message                                                     
+33:brk dec <t6> out,-0,2,3,<t6>,,,q .                                                                                               
+gto 13 .                                                                                                                            
+38:ldv <t1>i3=5 rsr 52 .                                      No affect message                                                     
+chg <mn> -236 -<t1> gto 40 .                                                                                                        
+39:if <t2> = 1 if <d2> = 0 ldv <mn>=-296 . ;gto 19 .                Rusty door?                                                     
+40:rsr 50 .                                       Tell 'em why it can't be done                                                     
+41:ldv,p <m>s80=<msg> sc q pc,<ln>,5;eel;tic$<m>tic$;pc,+1,5;eel .                                                                  
+inc <ln> if <ln> ge <lm> ldv,r <ln>=<ls> ;gto 13 .          Go look for command                                                     
+. ---------------- Return message or output line subroutine -------------------                                                     
+. Enter with <mn> = msg # for output line(s) or -msg # for 1 line in <msg>.                                                         
+50:ldv <t4>i4=<mn> if <mn> < 0 chg <t4> <t4> *-1 ;.                                                                                 
+if <t4> > 200,(lin 3) ;ldv <t2>i2=6 chg <t3>i3 <t4> +4 .                                                                            
+if <t4> > 100 inc,4 <t2> dec,100 <t3> ;.                                                                                            
+rdl,etype$,<rpx>,<t3> <t2>-3 <t1>i3 gto 51 .                                                                                        
+chg <t1>f10.6 <t4> -201 /7 +5 ldv <t2>i3=<t1>(1-3) .                                                                                
+chg <t3>i3 <t1>(4-7) *28 +54 rdl,etype$,<rpx>,<t2> <t3>-3 <t1>i3 .                                                                  
+51:rdl,etype$,<rpx>,<t1> 2-3,6-2,9-72 <t2>i3,<t3>a2,<msg> .                                                                         
+if <mn> < 0 esr ;.                                                                                                                  
+   <msg>                                                                                                                            
+inc <ln> if <t3> > 0 dec <t3> rln 9-72 <msg> gto lin -1 ;esr .                                                                      
+. ----------------------- Random number subroutine ----------------------------                                                     
+. Returns pseudo random number from 1 to <t1> inclusive in <t1> .                                                                   
+52:chg <t2>f12.5 <sd> *25173 +13849 /65536 chg <sd> <t2>(7-6) *65536 .                                                              
+ldv <t2>i6=<t1> ldv,n <t1>=<sd>(6-6),1-<t2> esr .                                                                                   
+. ----------------- Output multiline message subroutine -----------------------                                                     
+53:brk chg <t10>i3 <ln> -1 rsr 50 .                                                                                                 
+brk out,-0,2,scnv$,<t10>,,,q .                                                                                                      
+if <ln> ge <lm> ldv,r <ln>=<ls> ;esr .                                                                                              
+. --------------------------- Decode the command ------------------------------                                                     
+ldv <f>=<t5> gto 16 .                                                                                                               
+57:ldv <f>=0 lcv,lin-1 n <k>(1-<m2>) 1 <t5> .                                                                                       
+58:ldv <t1>i3=3 rsr 52 .                                       Can't understand                                                     
+chg <mn> -331 -<t1> gto 40 .                                                                                                        
+59:ldv <f>=0 gto <t5> .            Go to command routine, labels 60 through 103                                                     
+60:if <l1> ne 7 . ;if <s>(103-3) = <l1> ldv <s>(103-3)=0 ;ldv <t5>=026 gto 19 .                                                     
+if <l1> = 26 ldv <t5>=007 gto 19 ;gto 38 .                              - Plugh                                                     
+61:if <l1> ne 7 . ;if <s>(103-3) = <l1> ldv <s>(103-3)=0 ;ldv <t5>=013 gto 19 .                                                     
+if <l1> = 13 ldv <t5>=007 gto 19 ;gto 38 .                              - XYZZY                                                     
+62:if <l1> = 58 ldv <t5>=026 gto 19 ;if <l1> ne 26,(38) ;.             - Plover                                                     
+if <s>(103-3) = <l1> ldv <s>(103-3)=0 ;if <s>(28-3) = -1 ldv <s>(28-3)=<l1> ;.                                                      
+ldv <t5>=058 gto 19 .                                                                                                               
+63:if <l1> = 19,(lin 4),20,(lin 3),60,(lin 2),61 . ;gto 38 .            - Cross                                                     
+ldv <t5>=55 gto 18 .                                                                                                                
+ldv <t5>=51 gto 18 .                                                                                                                
+if <b2> ne 0 ldv <t5>=52 gto 18 ;ldv <mn>=-242 gto 40 .                                                                             
+if <b2> ne 0 ldv <t5>=56 gto 18 ;ldv <mn>=-242 gto 40 .                                                                             
+64:if <l1> ne 50,(38) ;if <p1> < 2,(38) ;ldv <t5>=070 gto 19 .          - Climb                                                     
+65:if <l1> = 16,19,20,27 brk ldv,r <ln>=2,<mn>=243 rsr 50 . ;gto 38 .    - Jump                                                     
+ldv <lx>=1 gto 7 .                                                                                                                  
+66:if <s>(61-3) ne -1 ldv <mn>=-335 gto 40 ;if <b0> ne 0 ldv <mn>=-244 gto 40 .                                                     
+if <l1> = 49,(lin 2),7,8,9,35,74,81 . ;ldv <msg>='I see no oil here.' gto 41 .                                                      
+ldv <b0>=1,<s>(46-3)=-1,<mn>=-336 gto 40 .                               - Fill                                                     
+ldv <b0>=2,<s>(49-3)=-1,<mn>=-336 gto 40 .                                                                                          
+67:if <s>(61-3) ne -1 ldv <mn>=-335 gto 40 ;.                           - Empty                                                     
+chg <t5> <b0> +15 *3 -2 ldv <s>(<t5>-3)=0,<b0>=0,<msg>='Emptied.' gto 41 .                                                          
+69:if <s>(52-3) ne -1 ldv <msg>='You do not have the lamp.' gto 41 ;.   - Light                                                     
+ldv <l>=1,<mn>=-337 gto 40 .                                                                                                        
+70:if <s>(52-3) ne -1 ldv <msg>='You do not have the lamp.' gto 41 ;.     - Off                                                     
+ldv <l>=0,<mn>=-338 if <l1> < 13,(40) ;if <l1> = 58,(40) ;ldv <mn>=338 rsr 53 .                                                     
+ldv <mn>=284 gto 32 .                                                                                                               
+71:if <l1> = 6,68 ldv <t5>=52 gto 18 ;.                                 - Enter                                                     
+if <l1> = 10 ldv <t5>=59 gto 18 ;gto lin 2 .                                                                                        
+72:if <l1> = 7,69 ldv <t5>=56 gto 18 ;if <l1> = 11 ldv <t5>=58 gto 18 ;.  Leave                                                     
+ldv <t1>i3=9,<t5>=50 .                                                                                                              
+if <loc>(<t1>-3) > 0 & < 101,(18) ;if <t1> < 45 inc,3 <t1> inc <t5> gto lin -0                                                      
+gto 38 .                                                                                                                            
+73:ldv <m>s76='You are carrying',<t5>=17,<t6>=<ln>,<t7>=1,<t8>=1,<t9>=0 brk .                                                       
+160:if <s>(<t7>-3) ne -1,(161) ;chg <mn> -361 -<t8> rsr 50 .        - Inventory                                                     
+if <t9> > 0 ldv <m>(<t5>-1)=',' inc <t5> ;inc <t9> .                                                                                
+def,p <t1>i3,<msg> inc <t1> chg <t2>i3 <t5> +<t1> .                                                                                 
+if <t2> < 77 ldv <m>(<t5>-<t1>)=' '<msg>,<t5>=<t2> gto 161 ;.                                                                       
+   <m>                                                                                                                              
+inc <ln> ldv <m>=<msg>,<t5>=<t1> .                                                                                                  
+161:if <t8> < <m2> inc <t8> inc,3 <t7> gto 160 ;.                                                                                   
+if <t9> > 0 ldv <m>(<t5>-1)='.' . ;ldv <m>(<t5>-0)=' nothing.' .                                                                    
+   <m>                                                                                                                              
+inc <ln> gto 33 .                                                                                                                   
+74:ldv <t9>=1,<t8>=1 lcv,162 n <k>(1-47) 1 ldv <t1>i3=3 rsr 52 .         - Take                                                     
+chg <mn> -331 -<t1> rsr 50 .                                            Nothing                                                     
+ldv <m>s80='Get what?  '<msg>,<msg>=<m> gto 41 .                                                                                    
+162:if <k>(47-1) = 1 . ;if <k>(<t9>-1) ne 1,(170) ;.           All?  Item here?                                                     
+if <s>(<t8>-3) = <l1>,(163) ;if <k>(47-1) = 1,(170) ;.                       No                                                     
+chg <mn> -361 -<t9> rsr 50 .                                                                                                        
+def,p <t5>,<msg> inc <t5> ldv <msg>(<t5>-0)=' not here.' ldv,p <m>s80=<msg> .                                                       
+ldv,u <m>(1-1)=<m>(1-1) sc q pc,<ln>,5;eel;tic$<m>tic$;pc,+1,5;eel . "Not here"                                                     
+inc <ln> if <ln> ge <lm> ldv,r <ln>=<ls> ;gto 170 .                                                                                 
+163:ldv <t7>=0,<t6>=1,<t5>=1 .                    How many items being carried?                                                     
+if <s>(<t5>-3) = -1 inc <t7> ;if <t6> < <m2> inc <t6> inc,3 <t5> gto lin -0 ;.                                                      
+if <t7> > 6 ldv <mn>=293 gto 32 ;if <t9> = 24,30 . ;if <t9> < 32,(lin 3) ;.                                                         
+164:ldv <t1>i3=5 rsr 52 .                                       Can't take that                                                     
+chg <mn> -299 -<t1> gto 40 .                                                                                                        
+ldv <m>s80='' if <t9> = 12 if <ch> = 0 ldv <mn>=297 gto 169 ;.    Bear chained?                                                     
+if <t9> = 26 if <b1> ne 2,(164) ;.                                   Bear free?                                                     
+if <t9> = 14 if <d1> = 1 ldv <mn>=298 gto 169 ;.                 Dragon on rug?                                                     
+if <t9> = 16,17 if <k>(47-1) ne 1 ldv <mn>=412 gto 169 ;.   "Why not say fill?"                                                     
+if <t9> = 22 if <b3> ne 0 ldv <s>(91-3)=-1,<m>='Bird and' gto 166 ;.                                                                
+if <t9> ne 31,(165) ;if <b3> = 1 ldv <s>(64-3)=-1,<m>='Cage and' gto 166 ;.                                                         
+if <s>(64-3) ne -1 ldv <mn>=-413 gto 40 ;.                                                                                          
+if <s>(67-3) = -1 ldv <mn>=276 gto 169 ;ldv <s>(91-3)=-1,<b3>=1 gto 167 .                                                           
+165:if <t9> ne 21 . ;if <b0> = 1 ldv <s>(46-3)=-1,<m>='Contents and' ;.                                                             
+166:ldv <s>(<t8>-3)=-1 .                                                                                                            
+167:chg <mn> -361 -<t9> rsr 50 .                                                                                                    
+def,p <t5>,<m> if <t5> > 0 inc,2 <t5> ;ldv <m>(<t5>-0)=<msg> def,p <t5>,<m> .                                                       
+inc <t5> ldv <m>(<t5>-0)=' taken.' ldv,u <m>(1-1)=<m>(1-1) ldv,p <m> .                                                              
+sc q pc,<ln>,5;eel;tic$<m>tic$;pc,+1,5;eel inc <ln> .                                                                               
+if <ln> ge <lm> ldv,r <ln>=<ls> ;gto 170 .                                                                                          
+169:rsr 53 .                                                                                                                        
+170:if <t9> < <m2> inc <t9> inc,3 <t8> gto 162 ;lcv,13 '' <k>(36-11) 1 gto 164                                                      
+75:ldv <t9>=1,<t8>=1,<t7>=0 lcv,lin+4 n <k>(1-47) 1 .                    - Drop                                                     
+171:ldv <t1>i3=3 rsr 52 .                                               Nothing                                                     
+chg <mn> -331 -<t1> rsr 50 .                                                                                                        
+ldv <m>s80='Drop what?  '<msg>,<msg>=<m> gto 41 .                                                                                   
+172:if <t9> le <m2> . ;if <k>(<t9>-1) = 1,(lin 3) ;gto 180 .                                                                        
+if <k>(47-1) = 1 . ;if <k>(<t9>-1) ne 1,(180) ;.                                                                                    
+if <s>(<t8>-3) = 0,(180),-1,(173) ;if <k>(47-1) = 1,(180) ;.                                                                        
+chg <mn> -361 -<t9> rsr 50 .                                                                                                        
+ldv <m>s80='You do not have the '<msg> def,p <t5>,<m> inc <t5> .                                                                    
+ldv <m>(<t5>-1)='.' ldv,p <m> sc q pc,<ln>,5;eel;tic$<m>tic$;pc,+1,5;eel .                                                          
+inc <ln> if <ln> ge <lm> ldv,r <ln>=<ls> ;gto 180 .                                                                                 
+173:ldv <m>s80='' if <t9> = 31 . ;if <t9> ne 22,(174) ;if <b3> ne 1,(174) ;.                                                        
+ldv <s>(91-3)=<l1>,<s>(64-3)=<l1>,<b3>=1,<m>='Cage and' .                                                                           
+if <t9> ne 31 ldv <m>='Bird and' ;gto 176 .                                                                                         
+174:if <t9> ne 21,(lin 2) ;if <b0> = 0,(176) ;chg <t5> <b0> +15 *3 -2 .                                                             
+ldv <s>(<t5>-3)=<l1>,<m>='Contents and the' gto 176 .                                                                               
+if <t9> = 16,17 if <k>(47-1) ne 1 ldv <mn>=356 gto 179 ;if <t9> ne 6,(176) ;.                                                       
+if <s>(82-3) = <l1> . ;ldv <s>(16-3)=0,<s>(85-3)=<l1>,<mn>=-282 gto 40 .                                                            
+ldv <mn>=299 rsr 53 .                                                                                                               
+176:ldv <s>(<t8>-3)=<l1> inc <t7> chg <mn> -361 -<t9> rsr 50 .                                                                      
+def,p <t5>,<m> if <t5> > 0 inc,2 <t5> ;ldv <m>(<t5>-0)=<msg> def,p <t5>,<m> .                                                       
+inc <t5> ldv <m>(<t5>-0)=' dropped.' ldv,u <m>(1-1)=<m>(1-1) ldv,p <m> .                                                            
+sc q pc,<ln>,5;eel;tic$<m>tic$;pc,+1,5;eel inc <ln> .                                                                               
+if <ln> ge <lm> ldv,r <ln>=<ls> ;gto 180 .                                                                                          
+179:rsr 53 .                                                                                                                        
+180:if <t9> < 45 inc <t9> inc,3 <t8> gto 172 ;.                                                                                     
+if <k>(47-1) = 1 if <t7> = 0,(171) ;gto 13 .                                                                                        
+76:lcv,lin+3 n <k>(1-46) 1 <t9> ldv <t1>i3=3 rsr 52 .                   - Throw                                                     
+chg <mn> -331 -<t1> rsr 50 .                                            Nothing                                                     
+ldv <m>s80='Throw what?  '<msg>,<msg>=<m> gto 41 .                                                                                  
+if <t9> le <m2> chg <t8> <t9> *3 -2 if <s>(<t8>-3) = -1,(182) ;.                                                                    
+chg <mn> -361 -<t9> rsr 50 .                                                                                                        
+ldv <m>s80='You do not have the '<msg> def,p <t5>,<m> inc <t5> .                                                                    
+ldv <m>(<t5>-1)='.' ldv <msg>=<m> gto 41 .                                                                                          
+182:if <t9> < 16 if <l1> = 60,61 if <s>(94-3) = 60 if <t> = 1 . ;gto 183 . Trol                                                     
+ldv <t1>i3=13 rsr 52 .                         Treasure to random maze location                                                     
+inc,87 <t1> juv,z <t1> ldv <s>(<t8>-3)=<t1>,<t>=3,<mn>=-266 gto 40 .                                                                
+183:if <t9> ne 27,(184) ;if <l1> = <s>(103-3),(lin 2),<s>(94-3) . ;gto 184 .                                                        
+ldv <s>(79-3)=<l1>,<mn>=265 gto 32 .                                                                                                
+ldv <t1>i3=100 rsr 52 .                                           Dwarf killed?                                                     
+if <t1> > 50 ldv <s>(103-3)=000,<mn>=269,<s>(<t8>-3)=<l1> inc <dc> gto 32 ;.                                                        
+rsr 127 .                                                                                                                           
+ldv <mn>=-268,<s>(<t8>-3)=<l1> gto 40 .                                                                                             
+184:ldv <s>(103-3)=<l1> rsr 126 .                                                                                                   
+ldv <s>(<t8>-3)=<l1>,<msg>='Thrown.' gto 41 .                                                                                       
+126:if <l1> < 13 esr ;if <d3> ne 0,(127) ;ldv <t1>i3=100 rsr 52 .                                                                   
+if <t1> > 5 esr ;ldv <mn>=323 rsr 53 .                                                                                              
+ldv <s>(79-3)=<l1>,<d3>=1 esr .                                                                                                     
+127:if <l1> < 13 esr ;ldv <t1>i3=100 rsr 52 .                                                                                       
+if <s>(103-3) = <l1> . ;if <t1> < 11 ldv <s>(103-3)=<l1> ;esr .                                                                     
+if <t1> > 50 esr ;ldv <t5>=<t1>,<mn>=271 rsr 53 .                                                                                   
+if <t5> > 20 ldv <mn>=330 rsr 53 . ;chg <lx> <ln> -1 gto lin 2 .                                                                    
+esr .                                                                                                                               
+ldv <mn>=329 brk rsr 50 .                                                                                                           
+gto 7 .                                                                                                                             
+77:ldv <mn>=-314 lcv,40 '' <k>(1-46) 1 <t9> .                          - Attack                                                     
+if <t9> = 33 if <s>(97-3) = <l1> if <l1> = 82 ldv <mn>=-311 gto 40 ;.                                                               
+if <s>(94-3) = <l1> ldv <mn>=264 gto 32 ;if <t9> = 26 . ;if <t9> < 31,(40) ;.                                                       
+ldv <mn>=-313 gto 40 .                                                                                                              
+78:lcv '' <k>(1-46) 1 <t9> if <t9> = 35 ldv <mn>=263 gto 32 ;.           - Feed                                                     
+if <s>(58-3) ne -1 ldv <mn>=-339 gto 40 ;.                                                                                          
+if <l1> = 69 ldv <b1>=1,<s>(58-3)=000,<mn>=-245 gto 40 ;.                                                                           
+brk ldv <t6>=<ln>,<mn>=417 rsr 50 .                                                                                                 
+if 1 = <k>(24-1),<k>(30-1),<k>(33-1),<k>(34-1) ldv <mn>=262 rsr 50 ;.                                                               
+gto 33 .                                                                                                                            
+79:if <s>(46-3) ne -1 ldv <mn>=-340 gto 40 ;if <l1> ne 50,(38) ;.       - Water                                                     
+ldv <b0>=0,<s>(46-3)=000 chg <mn> -246 -<p1> inc <p1> if <p1> > 2 ldv <p1>=0 ;.                                                     
+gto 40 .                                                                                                                            
+80:if <l1> < 10,(38) ;if 11 > 11,(38) ;if <s>(55-3) ne -1 ldv <mn>=-354 gto 40                                                      
+ldv <g>=0,<mn>=-249 gto 40 .                                             - Lock                                                     
+81:if <s>(55-3) ne -1 ldv <mn>=-354 gto 40 ;.                          - Unlock                                                     
+if <l1> = 10,11 ldv <g>=1,<mn>=-250 gto 40 ;if <l1> ne 69,(38) ;.                                                                   
+if <b1> ne 1 ldv <mn>=251 gto 32 ;ldv <mn>=-252 if <ch> = 0 ldv <ch>=1,<b1>=2 .                                                     
+gto 40 .                                                                                                                            
+82:if <k>(31-1) = 0,(38) ;if <s>(91-3) ne -1,(38) ;.                     - Free                                                     
+ldv <s>(91-3)=<l1>,<b3>=0,<mn>=355,<t6>=<ln> brk rsr 50 .                                                                           
+if <l1> = 22 if <s1> = 1 ldv <s1>=0,<s>(100-3)=000,<mn>=408 rsr 50 ;.                                                               
+if <l1> = 82 ldv <s>(91-3)=0,<mn>=409 rsr 50 ;.                                                                                     
+gto 33 .                                                                                                                            
+83:if <k>(23-1) = 0,(38) ;if <s>(67-3) ne -1 ldv <mn>=-410 gto 40 ;.     - Wave                                                     
+if <l1> < 19,(38) ;if <l1> > 20,(38) ;ldv <mn>=-253 inc <b2> .                                                                      
+if <b2> = 1,(40) ;ldv <b2>=0,<mn>=-254 gto 40 .                                                                                     
+84:if <l1> = 73 if <d2> = 0 ldv <mn>=-307 gto 40 ;.                      - Open                                                     
+lcv,lin+3 n <k>(1-46) 1 <t9> ldv <t1>i3=3 rsr 52 .                                                                                  
+chg <mn> -331 -<t1> rsr 50 .                                            Nothing                                                     
+ldv <m>s80='Open what?  '<msg>,<msg>=<m> gto 41 .                                                                                   
+if <t9> = 39,(81) ;if <t9> > <m2>,(164) ;chg <t8> <t9> *3 -2 .                                                                      
+if <s>(<t8>-3) = <l1>,-1,(lin 2) ;chg <mn> -361 -<t9> rsr 50 .                                                                      
+ldv,p <m>s80='I see no '<msg> ldv <msg>=<m>' here.' gto 41 .                                                                        
+if <t9> = 24,(lin 4) ;chg <mn> -361 -<t9> rsr 50 .                                                                                  
+if <msg>(1-1) = a,e,i,o,u,(lin 2) ;.                                                                                                
+ldv,p <m>s80='I do not know how to open a '<msg> ldv <msg>=<m>'.' gto 41 .                                                          
+ldv,p <m>s80='I do not know how to open an '<msg> ldv <msg>=<m>'.' gto 41 .                                                         
+if <s>(25-3) ne -1 ldv <mn>=-255 gto 40 ;if <s>(<t8>-3) = 0,(38) ;.                                                                 
+ldv <s>(19-3)=043,<s>(70-3)=000,<s>(88-3)=<l1>,<mn>=256 gto 32 .                                                                    
+85:if <k>(39-1) = 1,(80) ;ldv <mn>=-257 gto 40 .                        - Close                                                     
+86:if <k>(17-1) = 0,(38) ;if <s>(49-3) ne -1 ldv <mn>=-411 gto 40 ;.      - Oil                                                     
+if <l1> ne 73,(38) ;if <d2> ne 1 . ;gto 38 .                                                                                        
+ldv <d2>=1,<s>(49-3)=000,<b0>=0,<mn>=258 gto 32 .                                                                                   
+87:if <k>(20-1) = 0 ldv <mn>=-259 gto 40 ;.                               - Eat                                                     
+if <s>(58-3) ne -1 ldv <mn>=-339 gto 40 ;ldv <s>(58-3)=000,<mn>=-316 gto 40 .                                                       
+88:if <k>(16-1) = 0 ldv <mn>=-260 gto 40 ;.                             - Drink                                                     
+if <s>(46-3) ne -1 ldv <mn>=-340 gto 40 ;.                                                                                          
+ldv <s>(46-3)=000,<b0>=0,<mn>=-261 gto 40 .                                                                                         
+89:if <l1> ne 71,(38) ;if <s>(22-3) = <l1> ldv <s>(22-3)=000,<mn>=-322 gto 40 .                                                     
+ldv <s>(22-3)=<l1>,<mn>=-324 gto 40 .                         - FEE-FIE-FOE-FOO                                                     
+90:ldv <d0>=0,<mn>=-342 gto 40 .                                        - Short                                                     
+91:ldv <d0>=1,<mn>=-343 gto 40 .                                         - Long                                                     
+92:ldv <d0>=2,<mn>=-344 gto 40 .                                        - Brief                                                     
+93:ldv <mn>=-345 rsr 50 .                                                - Stop                                                     
+ldv,p <m>s80=<msg> chg invar$ <t1> sc '' pc,<ln>,5;eel;tic$<m>tic$ .                                                                
+inc <ln> if input$(1-1) = Y,(95) ;gto 192 .                                                                                         
+189:inc <ln> brk .                                                                                                                  
+   <msg>                                                                                                                            
+gto 191 .                                                                                                                           
+190:ldv <mn>=321 rsr 50 .                                                                                                           
+191:brk out,-0,2,scnv$,1,,,q .                                                                                                      
+192:ldv <mn>=331 rsr 53 .                                                                                                           
+rsr 125 .                                                                                                                           
+sc '' hc;eel .                                                                                                                      
+rel .                                                                                                                               
+94:rsr 125 .                                                            - Score                                                     
+gto 13 .                                                                                                                            
+95:brk,fftype$ .                                                         - Save                                                     
+ AG Save                                                                                                                            
+===============================================================================                                                     
+l1><l2><g><b0><s1><d1><d2><d0><t><b1><b2><p1><l><ch><d3><b3><r0><dc>                                                                
+s>(1-78)                                                                                                                            
+s>(79-0)                                                                                                                            
+v>(1-78)                                                                                                                            
+v>(79-0)                                                                                                                            
+brk,etype$ if <rid> = 0 dup,-0 ldv,wp <rid>=rid$ . ;rep,-0,fftype$,<rid> .                                                          
+ldv <t1>i6=999999 rsr 52 .                                                                                                          
+juv,z <t1> lok,fftype$,<rid> wrl,fftype$,<rid>,2,y,<t1> 2-1 *,' ' ulk .                                                             
+ldv <mn>=-358 rsr 50 .                                                                                                              
+def,p <t5>,<msg> inc,2 <t5> ldv <msg>(<t5>-0)=<rid>'A.' .                                                                           
+if <k>(93-1) = 0,(41) ;gto 189 .                                                                                                    
+96:if <c0> > 0 ldv <mn>=-359 gto 40 ;ldv <mn>=-360 rsr 50 .              - Load                                                     
+ldv,p <m>s80=<msg> sc '' pc,scnv$,5;eel;tic$<m>soe$	tic$ .                                                                          
+ldv,w <t1>a12=input$ def,p <t5>,<t1> ldv <t2>a1=<t1>(<t5>-1) .                                                                      
+dec <t5> ldv <t3>i4=<t1>(1-<t5>) rer 185 .                                                                                          
+rdl,mode1$,<t2>,<t3>,2,185 1-12 <t1> if <t1> ne '* AG Save',(185) ;.                                                                
+rln,4,185 1-3,4-3,7-3,10-3,13-3,16-3,19-3,22-3,25-3,28-3,31-3,34-3,37-3,40-3,\                                                      
+3-3,46-3,49-3,52-3 <l1>,<l2>,<g>,<b0>,<s1>,<d1>,<d2>,<d0>,<t>,<b1>,<b2>,<p1>,\                                                      
+l>,<ch>,<d3>,<b3>,<r0>,<dc> .                                                                                                       
+rln,,185 1-78 <m>s80 ldv <s>(1-78)=<m> rln,,185 1-78 <m> ldv <s>(79-0)=<m> .                                                        
+rln,,185 1-78 <m>s ldv <v>(1-78)=<m> rln,,185 1-78 <m> ldv <v>(79-0)=<m> .                                                          
+cer if <t2> = A ldv,p <rid>=<t3> ;ldv <c0>=1,<mn>=-361 rsr 50 .                                                                     
+ldv,p <m>s80=<msg> sc q pc,<ln>,5;eel;tic$<m>tic$ gto 1 .                                                                           
+185:cer ldv <mn>=-346 gto 40 .                                                                                                      
+97:if <k>(25-1) ne 1 ldv <mn>=-317 gto 40 ;.                             - Read                                                     
+if <s>(73-3) = -1 ldv <mn>=-327 gto 40 ;ldv <mn>=-348 gto 40 .                                                                      
+98:if <s>(97-3) ne <l1>,(58) ;ldv <s>(97-3)=000,<d1>=0,<mn>=312 gto 32 .  - Yes                                                     
+99:if <s>(97-3) ne <l1>,(58) ;ldv <f>=33,<mn>=-357 gto 40 .                - No                                                     
+100:ldv <mn>=-414 gto 40 .                                             - Thanks                                                     
+101:ldv <mn>=-415 gto 40 .                                               - Hell                                                     
+102:ldv <mn>=-416 gto 40 .                                             - Stupid                                                     
+103:ldv <mn>=-347 lcv,40 n <k>(1-46) 1 ldv <t1>i3=3 rsr 52 .             - Find                                                     
+chg <mn> -331 -<t1> rsr 50 .                                                                                                        
+ldv <m>s80='Find what?  '<msg>,<msg>=<m> gto 41 .                                                                                   
+. ----------------------- Display score subroutine ----------------------------                                                     
+125:ldv <m>s15=122223433253233,<t1>i3,<t2>i3=0,<t3>i3=0,<t4>i3=0,<t5>=1,<t6>=1                                                      
+ldv <t1>=<s>(<t6>-3) if <t1> = 0,(lin 2),-1 . ;if <v>(<t1>-1) = '',(lin 2) ;.                                                       
+chg <t4> <m>(<t5>-1) *4 inc,<t4> <t3> if <t1> = 7 inc,<t4> <t3> ;.                                                                  
+if <t5> < 15 inc <t5> inc,3 <t6> gto lin -2 ;.                                                                                      
+chg <t1> <g> *10 chg <t4> 1 -<s1> +<b2> +<d2> +<ch> *20 chg <t5> 1 -<d1> *30 .                                                      
+chg <t3> <t3> +<t1> +<t4> +<t5> +<dc> if <t> = 0 inc,30 <t3> ;.                                                                     
+if <b1> = 2 inc,20 <t3> ;if <p1> = 2 inc,20 <t3> ;.                                                                                 
+lcv b200 <v> 1 ,<t1> inc,<t1> <t2>,<t3> chg <mn> <t3> //130 .                                                                       
+if <mn> > 4 ldv <mn>=4 ;inc,349 <mn> ldv,p <t2>,<t3> ldv <t6>=<ln> brk .                                                            
+   Your score is now <t3>.  You have explored <t2>% of the cave.                                                                    
+inc <ln> rsr 50 .                                                                                                                   
+brk dec <t6> out,-0,2,scnv$,<t6>,,,q .                                                                                              
+if <ln> ge <lm> ldv,r <ln>=<ls> ;esr .                                                                                              
+. ------------------------- Build RPX RID index -------------------------------                                                     
+ldv <line>i3=5,<mline>i3=208,<eline>i4=5,<x>i2,<s>s27,<qty>a2 .                                                                     
+srh,etype$,<rpx>,<mline> fdl(*)  2-3 	,1/r,999 rnm -1 .                                                                             
+rsl,etype$,<rpx> rnm -2 ldv <zline>i3 .                                                                                             
+rdl,-1,<line>,lin+3 2-3,6-2 <zline>,<qty> if <zline> > 200,(lin 3) ;.                                                               
+wrl,-2,<eline> 10-3 	,<mline> inc <line>,<mline>,<eline> .                                                                          
+if <qty> ne '' inc,<qty> <mline> ;gto lin -2 .                                                                                      
+ldv <eline>=5,<x>=5,<s>=<mline> .                                                                                                   
+rdl,-1,<line>,lin+4 6-2 <qty> inc <line>,<mline> .                                                                                  
+if <qty> ne '' inc,<qty> <mline> ;.                                                                                                 
+ldv <s>(<x>-3)=<mline> if <x> < 25 inc,4 <x> gto lin -2 ;.                                                                          
+wrl,-2,<eline> 54-27 	,<s> inc <eline> ldv <x>=1,<s>='' gto lin -3 .                                                                
+if <x> > 1 wrl,-2,<eline> 54-27 	,<s> ;dsp,-2 .                                                                                     
+rep,-2,etype$,<rpx> .                                                                                                               
+gto end .                                                                                                                           

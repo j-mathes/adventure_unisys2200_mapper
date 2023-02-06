@@ -1,0 +1,741 @@
+DATE            17:18:58  RID     42D   07 SEP 02  42R1A3-1                                                                         
+@271231 Adventure Game RPX RID   719                         (Num - 201)/7 + 5                                                      
+LOC.SM .LM . N .NE . E .SE . S .SW . W .NW .UP .DN . 0 . 1 . 2 . 3 . 5 . 5 . 6                                                      
+===.===.===.===.===.===.===.===.===.===.===.===.===.===.===.===.===.===.===.===                                                     
+  1	108	208	003	000	006	000	004	000	002	000	000	000	453 454 455 456 457 458 459                                                     
+  2	109	209	001	000	008	000	002	000	004	000	000	000	460 461 462 463 464 465 466                                                     
+  3	110	210	002	000	001	000	004	000	007	000	000	000	467 468 469 470 471 472 473                                                     
+  4	111	211	001	000	003	000	005	000	002	000	000	000	474 475 476 477 478 479 480                                                     
+  5	112	212	002	000	006	000	004	000	001	000	000	000	481 482 483 484 485 486 487                                                     
+  6	113	214	002	000	007	000	008	000	005	000	000	000	488 489 490 491 492 493 494                                                     
+  7	114	217	000	000	000	000	000	000	006	000	000	000	495 496 497 498 499 500 501                                                     
+  8	115	218	006	000	003	000	009	000	004	000	000	000	502 503 505 506 507 508 509                                                     
+  9	116	220	008	000	003	000	010	000	004	000	000	000	512 513 515 516 517 518 519                                                     
+ 10	117	222	009	000	000	000	011	000	000	000	000	011	521 523 525 526 528 529 531                                                     
+ 11	118	225	000	000	010	000	000	000	012	000	010	000	532 533 536 537 538 539 541                                                     
+ 12	119	227	000	000	011	000	000	000	013	000	000	000	542 543 544 545 546 547 548                                                     
+ 13	120	229	000	000	012	000	000	000	014	000	014	000	549 550 551 553 555 556 558                                                     
+ 14	121	233	000	000	013	000	000	000	015	000	015	013	560 561 563 564 565 566 568                                                     
+ 15	122	234	000	000	014	000	000	000	016	000	000	000	570 571 572 573 574 575 576                                                     
+ 16	123	237	000	000	015	000	000	000	000	000	000	017	577 578 579 580 581 582 583                                                     
+ 17	124	240	022	000	000	000	018	000	019	000	016	022	585 586 587 588 589 590 592                                                     
+ 18	125	246	017	000	000	000	000	000	000	000	000	000	596 598 600 601 603 604 605                                                     
+ 19	126	248	000	000	017	000	000	000	020	000	000	000	627 628 629 630 631 632 633                                                     
+ 20	127	250	000	000	019	000	000	000	021	000	000	000	634 635 636 637 638 639 640                                                     
+ 21	128	251	020	000	020	000	088	000	029	000	000	000	641 642 643 644 645 646 647                                                     
+ 22	129	254	025	000	017	000	023	083	024	000	017	000	648 649 650 651 652 653 654                                                     
+ 23	130	256	022	000	000	000	000	000	000	000	000	000	655 656 657 658 659 660 661                                                     
+ 24	131	257	000	000	022	000	000	000	031	000	031	000	662 663 664 665 666 667 668                                                     
+ 25	132	259	026	000	000	000	022	000	000	000	000	033	669 670 671 672 673 674 675                                                     
+ 26	133	261	000	000	028	000	025	000	027	000	000	000	676 677 678 679 680 681 682                                                     
+ 27	134	264	000	000	026	000	078	000	000	000	000	000	683 684 685 686 687 688 689                                                     
+ 28	135	271	000	000	000	000	000	026	000	000	000	000	690 691 692 693 694 695 696                                                     
+ 29	136	272	031	000	021	000	000	000	030	000	021	031	697 698 699 700 701 702 703                                                     
+ 30	137	275	031	000	029	000	094	000	000	000	000	000	704 705 706 707 708 709 710                                                     
+ 31	138	277	032	000	024	000	030	000	029	000	000	000	711 712 713 714 715 716 717                                                     
+ 32	139	279	031	000	000	000	000	000	000	000	000	000	718                                                                             
+ 33	140	280	000	000	034	000	000	000	036	000	025	000	                                                                                
+ 34	141	282	000	000	000	000	000	000	033	000	000	035	                                                                                
+ 35	142	284	000	000	000	000	000	000	000	000	034	000	                                                                                
+ 36	143	286	000	000	033	000	000	000	000	000	025	037	                                                                                
+ 37	144	288	040	000	038	000	000	000	044	000	036	000	                                                                                
+ 38	145	291	000	000	039	000	000	000	037	000	037	000	                                                                                
+ 39	146	295	255	255	255	255	255	255	255	255	255	255	                                                                                
+ 40	147	296	000	000	000	000	037	000	000	000	041	042	                                                                                
+ 41	148	300	000	000	000	000	000	000	000	000	000	043	                                                                                
+ 42	149	302	000	000	000	000	000	000	000	000	040	043	                                                                                
+ 43	150	303	000	000	000	000	000	000	000	000	042	000	                                                                                
+ 44	151	304	255	000	037	000	255	000	045	000	255	255	                                                                                
+ 45	152	306	000	044	046	000	000	000	047	052	000	000	                                                                                
+ 46	153	309	000	000	000	000	000	000	045	000	000	000	                                                                                
+ 47	154	311	000	000	045	000	000	000	048	000	000	049	                                                                                
+ 48	155	316	000	000	047	000	000	000	051	000	000	050	                                                                                
+ 49	156	318	000	000	000	000	000	000	000	000	047	000	                                                                                
+ 50	157	320	000	000	000	000	000	000	000	000	048	000	                                                                                
+ 51	158	322	044	000	000	000	048	000	000	000	079	000	                                                                                
+ 52	159	327	056	000	000	045	000	000	053	000	000	000	                                                                                
+ 53	160	330	055	000	000	052	000	054	000	000	000	000	                                                                                
+ 54	161	332	000	000	000	000	000	000	000	000	060	053	                                                                                
+ 55	162	334	000	000	000	000	053	000	000	000	000	000	                                                                                
+ 56	163	335	000	000	000	000	052	000	057	000	000	000	                                                                                
+ 57	164	339	000	000	058	000	000	000	000	056	000	000	                                                                                
+ 58	165	342	000	059	000	000	000	000	057	000	000	000	                                                                                
+ 59	166	345	000	000	000	000	058	000	000	000	000	000	                                                                                
+ 60	167	348	000	061	000	000	000	054	000	000	000	054	                                                                                
+ 61	168	353	000	062	000	000	000	060	000	000	000	000	                                                                                
+ 62	169	357	000	000	063	000	000	000	061	000	000	000	                                                                                
+ 63	170	359	000	065	000	064	000	000	062	000	000	000	                                                                                
+ 64	171	362	063	000	000	000	068	000	000	000	000	000	                                                                                
+ 65	172	364	067	000	066	000	063	000	000	000	000	000	                                                                                
+ 66	173	367	000	000	000	000	000	000	065	000	000	000	                                                                                
+ 67	174	371	000	000	000	000	065	000	000	000	000	000	                                                                                
+ 68	175	390	000	000	069	000	000	000	064	000	000	000	                                                                                
+ 69	176	392	000	000	000	000	000	000	068	000	000	000	                                                                                
+ 70	177	395	000	000	050	000	000	000	071	000	000	050	                                                                                
+ 71	178	398	073	000	070	000	072	000	000	000	000	000	                                                                                
+ 72	179	401	000	071	000	000	000	000	000	000	000	000	                                                                                
+ 73	180	402	074	000	000	000	071	000	000	000	000	000	                                                                                
+ 74	181	403	000	000	000	000	073	000	075	000	000	000	                                                                                
+ 75	182	406	074	000	000	000	000	000	000	000	000	076	                                                                                
+ 76	183	409	078	000	000	000	077	000	000	000	000	045	                                                                                
+ 77	184	410	076	000	000	000	000	000	000	000	000	093	                                                                                
+ 78	185	414	027	000	000	044	076	000	000	000	000	000	                                                                                
+ 79	186	417	080	000	000	000	082	000	000	000	000	051	                                                                                
+ 80	187	418	081	000	000	000	079	000	000	000	000	000	                                                                                
+ 81	188	425	000	000	000	000	080	000	000	000	000	000	                                                                                
+ 82	189	430	079	000	083	000	000	000	000	000	000	000	                                                                                
+ 83	190	431	000	000	022	000	000	000	082	000	000	084	                                                                                
+ 84	191	432	086	000	000	000	085	000	000	000	000	000	                                                                                
+ 85	192	433	084	000	000	000	000	000	000	000	000	000	                                                                                
+ 86	193	434	045	000	084	000	000	000	087	000	000	000	                                                                                
+ 87	194	436	000	000	000	086	000	000	000	000	000	000	                                                                                
+ 88	195	437	089	082	091	095	090	083	092	091	095	094	                                                                                
+ 89	196	438	095	096	091	090	089	088	091	095	093	097	                                                                                
+ 90	197	439	092	092	091	093	088	097	088	096	099	087	                                                                                
+ 91	198	440	091	089	094	090	093	095	089	092	000	000	                                                                                
+ 92	199	441	095	097	093	096	094	095	021	092	000	000	                                                                                
+ 93	200	442	090	096	092	094	088	030	092	090	000	000	                                                                                
+ 94	201	443	088	089	090	091	089	093	095	097	000	000	                                                                                
+ 95	202	444	093	094	096	092	097	095	094	092	000	000	                                                                                
+ 96	203	445	092	099	097	096	089	094	090	090	091	092	                                                                                
+ 97	204	446	098	089	092	091	090	093	094	095	096	098	                                                                                
+ 98	205	447	095	090	093	091	094	092	090	099	098	015	                                                                                
+ 99	206	451	088	089	093	097	100	089	096	095	000	000	                                                                                
+100	207	452	000	000	000	000	099	000	000	000	000	000	                                                                                
+*******************************************************************************                                                     
+NUM.SZ.                              MESSAGES                                 *                                                     
+===.==.========================================================================                                                     
+  1	  	You're in a forest.                                                                                                          
+  2	  	You're in a forest.                                                                                                          
+  3	  	You're in a forest.                                                                                                          
+  4	  	You're in a forest.                                                                                                          
+  5	  	You're at a hill at the end of a road.                                                                                       
+  6	  	You're at a road near a house.                                                                                               
+  7	  	You're inside the house.                                                                                                     
+  8	  	You're beside a stream in a valley.                                                                                          
+  9	  	You're near the slit in the streambed.                                                                                       
+ 10	  	You're directly above a grate in a dry streambed.                                                                            
+ 11	  	You are below the grate.                                                                                                     
+ 12	  	You're in a cobbled crawl.                                                                                                   
+ 13	  	You're in the debris room.                                                                                                   
+ 14	  	You are in an awkward sloping east-west canyon.                                                                              
+ 15	  	You're in the bird chamber.                                                                                                  
+ 16	  	You're at the top of a small pit.                                                                                            
+ 17	  	You're in the hall of mists.                                                                                                 
+ 18	  	You're in the nugget of gold room.                                                                                           
+ 19	  	You're on the east side of the fissure.                                                                                      
+ 20	  	You're on the west side of the fissure.                                                                                      
+ 21	  	You're at the west end of the hall of mists.                                                                                 
+ 22	  	You are in the Hall of the Mountain King.                                                                                    
+ 23	  	You're in the south chamber.                                                                                                 
+ 24	  	You're in the west chamber.                                                                                                  
+ 25	  	You are at a north-south passage at a hole in the floor.                                                                     
+ 26	  	You're at "Y2".                                                                                                              
+ 27	  	You are near a window overlooking the pit.                                                                                   
+ 28	  	The passage here is blocked by a recent cave-in.                                                                             
+ 29	  	You're at the east end of a long hall.                                                                                       
+ 30	  	You're at the west end of a long hall.                                                                                       
+ 31	  	A high north-south canyon crosses over a low east-west one.                                                                  
+ 32	  	Dead end.                                                                                                                    
+ 33	  	You are in a dirty broken passage.                                                                                           
+ 34	  	You're at the brink of a small pit.                                                                                          
+ 35	  	You're in a little pit which has a stream flowing through it.                                                                
+ 36	  	You are in a room full of dusty rocks.                                                                                       
+ 37	  	You're at a complex junction.                                                                                                
+ 38	  	You are in the anteroom.                                                                                                     
+ 39	  	You're at Witt's End, with passages off in all direction.                                                                    
+ 40	  	You are in the shell room.                                                                                                   
+ 41	  	You are in the arched hall.                                                                                                  
+ 42	  	You are in a steep sloping corridor.                                                                                         
+ 43	  	You are in a cul-de-sac about 8 feet across.                                                                                 
+ 44	  	You are in the bedquilt.                                                                                                     
+ 45	  	This is the swiss cheese room.                                                                                               
+ 46	  	You are in the soft room.                                                                                                    
+ 47	  	You are at the east end of the 2 pit room.                                                                                   
+ 48	  	You are at the west end of the 2 pit room.                                                                                   
+ 49	  	You're in the east pit.                                                                                                      
+ 50	  	You're in the west pit.                                                                                                      
+ 51	  	You are in the slab room.                                                                                                    
+ 52	  	This is the oriental room.                                                                                                   
+ 53	  	You are in a large low room.                                                                                                 
+ 54	  	You are in a sloping corridor.                                                                                               
+ 55	  	You are at a dead end of the crawl.                                                                                          
+ 56	  	You are in a misty cavern.                                                                                                   
+ 57	  	You are in an alcove.  A green glow comes from the east.                                                                     
+ 58	  	You are in the plover room.                                                                                                  
+ 59	  	You are in a dark room.                                                                                                      
+ 60	  	You are on the southwest side of the troll's bridge.                                                                         
+ 61	  	You are on the northeast side of the troll's bridge.                                                                         
+ 62	  	You are in an east-west corridor.                                                                                            
+ 63	  	You're at a fork in the path.                                                                                                
+ 64	  	You are in a north-south limestone passage.                                                                                  
+ 65	  	You're at a junction with warm walls.                                                                                        
+ 66	  	You're in the chamber of boulders.                                                                                           
+ 67	  	You're at a breathtaking view.                                                                                               
+ 68	  	You are outside a barren room.                                                                                               
+ 69	  	You are inside a barren room.                                                                                                
+ 70	  	You are in a long, narrow east-west corridor.                                                                                
+ 71	  	You're in the giant room.                                                                                                    
+ 72	  	The passage here is blocked by a recent cave-in.                                                                             
+ 73	  	You are at one end of an immense north-south passageway.                                                                     
+ 74	  	You're in a cavern with a waterfall.                                                                                         
+ 75	  	You are at the top of a steep incline above a large room.                                                                    
+ 76	  	You are in a secret north-south canyon above a sizable passage.                                                              
+ 77	  	You're on top of the stalactite.                                                                                             
+ 78	  	You are at the junction of three secret canyons.                                                                             
+ 79	  	You are in a secret north-south canyon above a large room.                                                                   
+ 80	  	You are in the canyon with the mirror.                                                                                       
+ 81	  	You are at the underground reservoir.                                                                                        
+ 82	  	You are in a secret canyon with exits to the north and east.                                                                 
+ 83	  	You are in a secret east-west canyon above a tight canyon.                                                                   
+ 84	  	You are at a wide place in a very tight north-south canyon.                                                                  
+ 85	  	The canyon becomes too tight to continue.                                                                                    
+ 86	  	You are in a tall east-west canyon.                                                                                          
+ 87	  	The canyon runs into a mass of boulders - dead end.                                                                          
+ 88	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 89	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 90	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 91	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 92	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 93	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 94	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 95	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 96	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 97	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+ 98	  	You are at a huge orange stalactite in the maze.                                                                             
+ 99	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+100	  	You are at a dead end.                                                                                                       
+101	  	You are in a forest, with trees all around you.                                                                              
+102	  	You are in a forest, with trees all around you.                                                                              
+103	  	You are in a forest, with trees all around you.                                                                              
+104	  	You are in a forest, with trees all around you.                                                                              
+105	 1	You have walked up a hill, still in the forest.  The road slopes back                                                        
+       down the other side of the hill.  There is a building in the distance.                                                       
+106	 2	You are standing at the end of a road before a small brick building.                                                         
+   	  	Around you is a forest.  A small stream flows out of the building and                                                        
+   	  	down a gully.                                                                                                                
+107	  	You are inside a building, a well house for a large spring.                                                                  
+108	 1	You are in a valley in the forest beside a stream tumbling along a                                                           
+   	  	rocky bed.                                                                                                                   
+109	 1	At your feet all the water of the stream splashes into a 2-inch slit in                                                      
+   	  	the rock.  Downstream the streambed is bare rock.                                                                            
+110	 2	You are in a 20-foot depression floored with bare dirt.  Set into the                                                        
+   	  	dirt is a strong steel grate mounted in concrete.  A dry streambed                                                           
+   	  	leads into the depression.                                                                                                   
+111	 1	You are in a small chamber beneath a 3X3 steel grate to the surface.                                                         
+   	  	A low crawl over cobbles leads inward to the west.                                                                           
+112	 1	You are crawling over cobbles in a low passage.  There is a dim light                                                        
+   	  	at the east end of the passage.                                                                                              
+113	 3	You are in a room filled with debris washed in from the surface.  A low                                                      
+   	  	wide passage with cobbles becomes plugged with mud and debris here, but                                                      
+   	  	an awkward canyon leads upward and west.  A note on the wall says                                                            
+   	  	"Magic word XYZZY".                                                                                                          
+114	  	You are in an awkward sloping east-west canyon.                                                                              
+115	 2	You are in a splendid chamber thirty feet high.  The walls are frozen                                                        
+   	  	rivers of orange stone.  An awkward canyon and a good passage exit                                                           
+   	  	from the east and west sides of the chamber.                                                                                 
+116	 2	At your feet is a small pit breathing traces of white mist.  An east                                                         
+   	  	passage ends here except for a small crack leading on.  Rough stone                                                          
+   	  	steps lead down the pit.                                                                                                     
+117	 5	You are at one end of a vast hall stretching forward out of sight to                                                         
+   	  	the west.  There are openings to either side.  Nearby, a wide stone                                                          
+   	  	staircase leads downward.  The hall is filled with wisps of white mist                                                       
+   	  	swaying to and fro almost as if alive.  A cold wind blows up the                                                             
+   	  	staircase.  There is a passage to the top of a dome behind you.  Rough                                                       
+   	  	stone steps lead to the top of the dome.                                                                                     
+118	 1	This is a low room with a crude note on the wall.  The note says,                                                            
+   	  	"You won't get it up the steps!"                                                                                             
+119	 1	You are on the east bank of a fissure slicing clear across the hall.                                                         
+   	  	The mist is quite thick here, and the fissure is too wide to jump.                                                           
+120	  	You are on the west side of the fissure in the hall of mists.                                                                
+121	 2	You are at the west end of the hall of mists.  A low wide crawl                                                              
+   	  	continues west and another goes north.  To the south is a little                                                             
+   	  	passage 6 feet off the floor.                                                                                                
+122	 1	You are in the Hall of the Mountain King, with passages off in all                                                           
+   	  	directions.                                                                                                                  
+123	  	You are in the south side chamber.                                                                                           
+124	 1	You are in the west side chamber of the Hall of the Mountain King.                                                           
+   	  	A passage continues up and west from here.                                                                                   
+125	 1	You are in a low north-south passage at a hole in the floor.  The hole                                                       
+   	  	goes down to an east-west passage.                                                                                           
+126	 2	You are in a large room with a passage to the south, a passage to the                                                        
+   	  	west, and a wall of broken rock to the east.  There is a large "Y2" on                                                       
+   	  	a rock in the room's center.                                                                                                 
+127	 6	You're at a low window overlooking a huge pit, which extends up out of                                                       
+   	  	your sight.  A floor is indistinctly visible over 50 feet below.                                                             
+   	  	Traces of white mist cover the floor of the pit, becoming thicker to                                                         
+   	  	the right.  Marks in the dust around the window would seen to indicate                                                       
+   	  	that someone has been here recently.  Directly across the pit from you                                                       
+   	  	and 25 feet away there is a similar window looking into a lighted room.                                                      
+   	  	A shadowy figure seems to be trying to attract your attention.                                                               
+128	  	The passage here is blocked by a recent cave-in.                                                                             
+129	 2	You are at the east end of a very long hall apparently without side                                                          
+   	  	chambers.  To the east a low wide crawl slants up.  To the north a                                                           
+   	  	round 2 foot hole slants down.                                                                                               
+130	 1	You are at the west end of a very long featureless hall.  The hall                                                           
+   	  	joins up with a narrow north-south passage.                                                                                  
+131	 1	You are at a crossover of a high north-south passage and a low                                                               
+   	  	east-west one.                                                                                                               
+132	  	Dead end.                                                                                                                    
+133	 1	You are in a dirty broken passage.  To the east is a crawl.  To the                                                          
+   	  	west is a large passage.  Above you is hole to another passage.                                                              
+134	 1	You are on the brink of a small, clean, climable pit.  A passage                                                             
+   	  	leads west.                                                                                                                  
+135	 1	You are at the bottom of a small clean pit.  A stream flows out a hole                                                       
+   	  	and through some small slits in the bottom of the pit.                                                                       
+136	 1	You are in a large room full of dusty rocks.  There is a big hole in                                                         
+   	  	the floor.  There are cracks everywhere and a passage leading east.                                                          
+137	 2	You are at a complex junction.  A low hands and knees passage from the                                                       
+   	  	north joins a higher crawl from the east to make a walking passage                                                           
+   	  	going west.  There is also a large room above.  The air is damp here.                                                        
+138	 3	You are in an anteroom leading to a large passage to the east.  Small                                                        
+   	  	passages go west and up.  The remnants of recent diggings are evident.                                                       
+   	  	A sign hanging in midair says: "CAVE UNDER CONSTRUCTION BEYOND THIS                                                          
+   	  	POINT.  PROCEED AT OWN RISK.  (WITT CONSTRUCTION COMPANY)".                                                                  
+139	  	You're at Witt's End, with passages off in all directions.                                                                   
+140	 3	You're in a large room carved out of sedimentary rock.  The floor and                                                        
+   	  	walls are littered with bits of shells imbedded in the stone.  A                                                             
+   	  	shallow passage proceeds downward, and a somewhat steeper one leads up.                                                      
+   	  	A low hands and knees passage enters from the south.                                                                         
+141	 1	You are in an arched hall.  A coral passage once continued up and east                                                       
+   	  	from here, but is now blocked by debris.  The air smells of sea water.                                                       
+142	  	You are in a long sloping corridor with ragged sharp walls.                                                                  
+143	  	You are in a cul-de-sac about 8 feet across.                                                                                 
+144	 1	You are in bedquilt along an east-west passage with holes everywhere.                                                        
+   	  	To explore at random, select up, down, north, or south.                                                                      
+145	 2	You are in a room whose walls resemble swiss cheese.  Obvious                                                                
+   	  	passages go to the west, east, northeast, and northwest.  Part of the                                                        
+   	  	room is occupied by a large bedrock.                                                                                         
+146	 1	You are in the soft room.  The walls are covered with heavy curtains,                                                        
+   	  	the floor with a thick pile carpet.  Moss covers the ceiling.                                                                
+147	 4	You are at the east end of the 2 pit room.  The floor here is littered                                                       
+   	  	with thin rock slabs, which make it easy to descend into the pits.                                                           
+   	  	There is a path here bypassing the pits to connect passages from east                                                        
+   	  	and west.  There are holes all over, but the only big one is on the                                                          
+   	  	wall directly over the west pit where you can't get to it.                                                                   
+148	 1	You are at the west end of the 2 pit room.  There is a large hole in                                                         
+   	  	the wall above the pit at this end of the room.                                                                              
+149	 1	You are at the bottom of the eastern pit in the 2 pit room.  There is                                                        
+   	  	a small pool of oil in one corner of the pit.                                                                                
+150	 1	You are at the bottom of the western pit in the 2 pit room.  There is                                                        
+   	  	a large hole directly above you.                                                                                             
+151	 4	You are in a large low circular chamber whose floor is an immense slab                                                       
+   	  	fallen from the ceiling (slab room).  There were once large passages                                                         
+   	  	east and west, but they are now filled with boulders.  Low small                                                             
+   	  	passages go north and south, and the south one quickly bends west                                                            
+   	  	around the boulders.                                                                                                         
+152	 2	This is the oriental room.  Ancient oriental cave drawings cover the                                                         
+   	  	wall.  A gently sloping passage leads upward to the north.  Another                                                          
+   	  	passage leads southeast, and a hands and knees crawl leads west.                                                             
+153	 1	You are in a large low room.  Crawls lead north, southeast, and                                                              
+   	  	southwest.                                                                                                                   
+154	 1	You are in a long winding corridor sloping out of sight in both                                                              
+   	  	directions.  A cold wind blows up the corridor.                                                                              
+155	  	Dead end crawl.                                                                                                              
+156	 3	You are following a wide path around the outer edge of a large cavern.                                                       
+   	  	Far below, through a heavy white mist, strange splashing noises can be                                                       
+   	  	heard.  THe mist rises up through a fissure in the ceiling.  The path                                                        
+   	  	exits to the south and west.                                                                                                 
+157	 2	You are in an alcove.  A small northwest path seems to widen after a                                                         
+   	  	short distance.  An extremely tight tunnel leads east.  It looks like a                                                      
+   	  	very tight squeeze.  An eerie light can be seen at the other end.                                                            
+158	 2	You are in a room lit by an eerie green light emanating from the walls.                                                      
+   	  	An extremely tight tunnel leads west, and a dark corridor lies to the                                                        
+   	  	northeast.                                                                                                                   
+159	 2	You're in the dark room.  A corridor leading south is the only exit.                                                         
+   	  	A massive stone tablet embedded in the wall reads:                                                                           
+   	  	"Congratulations on bringing light into the dark room".                                                                      
+160	 4	You are on one side of a large, deep chasm.  A heavy white mist rising                                                       
+   	  	up from below obscures all view of the far side.  A southwest path                                                           
+   	  	leads away.  A rickety wooden bridge extends across the chasm,                                                               
+   	  	vanishing into the mist.  A sign posted on the bridge reads:                                                                 
+   	  	"STOP! PAY TROLL!".                                                                                                          
+161	 3	You are on the far side of the chasm.  A northeast path leads away from                                                      
+   	  	the chasm on this side.  A rickety wooden bridge extends across the                                                          
+   	  	chasm, vanishing into the gloom.  A sign posted on the bridge reads:                                                         
+   	  	"STOP! PAY TROLL!".                                                                                                          
+162	 1	You're in a long east-west corridor.  A faint noise can be heard in the                                                      
+   	  	distance.                                                                                                                    
+163	 2	The path forks here.  The left fork leads northeast.  A dull rumbling                                                        
+   	  	seems to get louder in that direction.  The main corridor enters from                                                        
+   	  	the west.                                                                                                                    
+164	 1	You are walking along a gently sloping north-south passage lined with                                                        
+   	  	oddly shaped limestone formations.                                                                                           
+165	 2	The walls are quite warm here.  From the north can be heard a steady                                                         
+   	  	roar, so loud the entire cave seems to be trembling.  Another passage                                                        
+   	  	leads south, and a low crawl goes east.                                                                                      
+166	 3	You are in a small chamber filled with large boulders.  The walls are                                                        
+   	  	very warm, causing the air in the room to be almost stifling from the                                                        
+   	  	heat.  The only exit is a crawl heading west, through which is coming                                                        
+   	  	a low rumbling.                                                                                                              
+167	18	You are on the edge of a breathtaking view.  Far below you is an active                                                      
+   	  	volcano, from which great gouts of molten lava come surging out,                                                             
+   	  	cascading back into the depths.  The glowing rock fills the farthest                                                         
+   	  	reaches of the cavern with a blood-red glare, giving everything an                                                           
+   	  	eerie, macabre appearance.  The air is filled with flickering sparks of                                                      
+   	  	ash and a heavy smell of brimestone.  The walls are hot to the touch,                                                        
+   	  	and the thundering of the volcano drowns out all other sounds.                                                               
+   	  	Embedded in the jagged roof far overhead are myriad twisted formations                                                       
+   	  	composed of pure white alabaster, which scatter the murky light into                                                         
+   	  	sinister apparitions upon the walls.  To one side is a deep gorge,                                                           
+   	  	filled with a bizarre chaos of tortured rock which seems to have been                                                        
+   	  	crafted by the devil himself.  An immense river of fire crashes out                                                          
+   	  	from the depths of the volcano, burns its way through the gorge, and                                                         
+   	  	plummets into a bottomless pit far off to your left.  To the right, an                                                       
+   	  	immense geyser of blistering steam erupts continuously from a barren                                                         
+   	  	island in the center of a sulfurous lake which bubbles ominously.  The                                                       
+   	  	far right wall is aflame with an incandescence of its own, which lends                                                       
+   	  	an additional infernal splendor to the already hellish scene.  A dark,                                                       
+   	  	foreboding passage exits to the south.                                                                                       
+168	 1	You are standing at the entrance to a large barren room.  A sign posted                                                      
+   	  	above the entrance reads:  "CAUTION! BEAR IN ROOM!".                                                                         
+169	 2	You are inside a barren room.  The center of the room is completely                                                          
+   	  	empty except for some dust.  Marks in the dust lead away toward the                                                          
+   	  	far end of the room.  The only exit is the way you came in.                                                                  
+170	 2	You are in a long, narrow corridor stretching out of sight to the west.                                                      
+   	  	At the eastern end is a hole through which you can see a profusion of                                                        
+   	  	leaves.                                                                                                                      
+171	 2	You are in the giant room.  The ceiling here is too high up for your                                                         
+   	  	lamp to show it.  Cavernous passages lead east, north, and south.  On                                                        
+   	  	the west wall is scrawled the inscription:  "Fee-Fie-Foe-Foo" (sic).                                                         
+172	  	The passage here is blocked by a recent cave-in.                                                                             
+173	  	You are at one end of an immense north-south passage.                                                                        
+174	 2	You are in a magnificent cavern with a rushing stream, which cascades                                                        
+   	  	over a sparkling waterfall into a roaring whirlpool which disappears                                                         
+   	  	through a hole in the floor.  Passages exit to the south and west.                                                           
+175	 2	You are at the top of a steep incline above a large room.  You could                                                         
+   	  	climb down here, but you would not be able to climb back up.  There                                                          
+   	  	is a passage leading back to the north.                                                                                      
+176	  	You are in a secret north-south canyon above a sizable passage.                                                              
+177	 3	A large stalactite extends from the roof and almost reaches the floor                                                        
+   	  	below.  You could climb down it, and jump from it to the floor, but                                                          
+   	  	having done so, you would be unable to reach it to climb back up.                                                            
+   	  	The maze continues at this level.                                                                                            
+178	 2	You are in a secret canyon at a junction of 3 canyons, bearing north,                                                        
+   	  	south, and southeast.  The north one is as tall as the other two                                                             
+   	  	combined.                                                                                                                    
+179	  	You are in a secret north-south canyon above a large room.                                                                   
+180	 6	You are in a north-south canyon about 25 feet across.  The floor is                                                          
+   	  	covered by white mist seeping in from the north.  The walls extend                                                           
+      	upward for well over 100 feet.  Suspended from some unseen point far                                                         
+   	  	above you, an enormous two-sided mirror is hanging parallel to and                                                           
+   	  	midway between the canyon walls.  (The mirror is obviously provided                                                          
+   	  	for use by the dwarves, who, as you know, are extremely vain.)                                                               
+   	  	A small window can be seen in either wall, some 50 feet up.                                                                  
+181	 4	You are at the edge of a large underground reservoir.  An opaque cloud                                                       
+   	  	of white mist fills the room and rises rapidly upward.  The lake is fed                                                      
+   	  	by a stream which tumbles out of a hole in the wall about 10 feet                                                            
+   	  	overhead and splashes noisily into the water somewhere within the mist.                                                      
+   	  	The only passage goes back toward the south.                                                                                 
+182	  	You are in a secret canyon with exits to the north and east.                                                                 
+183	  	You are in a secret east-west canyon above a tight canyon.                                                                   
+184	  	You are in a wide place in a very tight north-south canyon.                                                                  
+185	  	The canyon here becomes too tight to go on.                                                                                  
+186	 1	You re in a tall east-west canyon.  A low crawl goes 3 feet north and                                                        
+   	  	seems to open up.                                                                                                            
+187	  	The canyon runs into a mass of boulder - dead end.                                                                           
+188	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+189	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+190	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+191	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+192	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+193	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+194	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+195	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+196	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+197	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+198	 3	You are near a large pit beside a large orange stalactite in the maze.                                                       
+   	  	The stalactite is about 30 feet long, allowing you to descend it.                                                            
+   	  	However, due to the smoothness of the stalactite, you will probably                                                          
+   	  	be unable to climb back up again.                                                                                            
+199	  	You are in a maze of twisty little tunnels, all alike.                                                                       
+200	  	Dead end.                                                                                                                    
+201	  	There is a large sparkling nugget of gold here!                                                                              
+202	  	There are bars of silver here!                                                                                               
+203	  	There is precious jewelry here!                                                                                              
+204	  	There are many coins here!                                                                                                   
+205	  	There are several diamonds here!                                                                                             
+206	  	There is a delicate, precious Ming vase here!                                                                                
+207	  	To one side lies a glistening pearl!                                                                                         
+208	  	There is a nest here, full of golden eggs!                                                                                   
+209	  	There is a jewel-encrusted trident here!                                                                                     
+210	  	There is an emerald the size of the egg of a plover here!                                                                    
+211	  	There is a platinum pyramid here, 8 inches on a side!                                                                        
+212	  	There is a golden chain here!                                                                                                
+213	  	There are rare spices here!                                                                                                  
+214	  	There is a valuable Persian rug here!                                                                                        
+215	  	There is a chest here, full of various treasures!                                                                            
+216	  	There is a bottle of water here.                                                                                             
+217	  	There is a small pool of oil here.                                                                                           
+218	  	There is a brass lantern here.                                                                                               
+219	  	There is a set of keys here.                                                                                                 
+220	  	There is food here.                                                                                                          
+221	  	There is a glass bottle here.                                                                                                
+222	  	There is a small wicker cage here.                                                                                           
+223	  	There is a 3-foot black rod here.                                                                                            
+224	  	There is an enormous clam here with its shell tightly shut.                                                                  
+225	  	There is a recent issue of "Spelunker Today" here.                                                                           
+226	  	There is a bear nearby.                                                                                                      
+227	  	There is a little axe here.                                                                                                  
+228	  	There is a purple velvet pillow here.                                                                                        
+229	  	There are shards of pottery scattered about.                                                                                 
+230	  	There is an enormous oyster here with its shell tightly shut.                                                                
+231	  	There is a little bird here.                                                                                                 
+232	  	A burly troll stands in front of you.                                                                                        
+233	  	A huge fierce green dragon bars the way!                                                                                     
+234	  	A huge fierce green snake bars the way!                                                                                      
+235	  	There is a threatening little dwarf in the room with you!                                                                    
+236	  	You cannot move that way.                                                                                                    
+237	  	Nothing happens.                                                                                                             
+238	  	Nothing seems to happen.                                                                                                     
+239	  	I do not think that had any effect on anything.                                                                              
+240	  	I do not know how to apply that word in this situation.                                                                      
+241	  	That had little effect, if any at all.                                                                                       
+242	  	The fissure is too wide to jump.                                                                                             
+243	  	You are at the bottom of a pit with a broken neck.                                                                           
+244	  	The bottle is already filled.                                                                                                
+245	  	The bear eagerly wolfs down the food and becomes calm and friendly.                                                          
+246	  	The plant surges upwards, reaching halfway to the hole above you.                                                            
+247	  	The plant grows explosively, almost filling the bottom of the pit.                                                           
+248	  	You overwatered the plant, you fool!                                                                                         
+249	  	The grate is locked.                                                                                                         
+250	  	The grate is unlocked.                                                                                                       
+251	 1	The bear is quite ferocious and will no doubt tear you to shreds if you                                                      
+   	  	approach it.                                                                                                                 
+252	  	The chain is unlocked and the bear is free.                                                                                  
+253	  	A crystal bridge now spans the fissure.                                                                                      
+254	  	The bridge vanishes.                                                                                                         
+255	  	It is beyond your power to do that.                                                                                          
+256	 2	The clam opens momentarily, and a glistening pearl falls out and rolls                                                       
+   	  	away.  Goodness, this must really be an oyster.  (I never was any good                                                       
+   	  	at identifying bivalves, anyway.)                                                                                            
+257	  	I cannot close that.                                                                                                         
+258	 1	The oil has freed up the hinges, and with a slight push, the door                                                            
+   	  	squeaks open.                                                                                                                
+259	  	I cannot eat that.                                                                                                           
+260	  	How can I drink that?                                                                                                        
+261	  	"Glug, glug, glug, belch!"                                                                                                   
+262	  	It does not want to eat anything (except maybe you!).                                                                        
+263	 1	You fool!  Dwarves only eat coal!  Now you've made him                                                                       
+   	  	*** REALLY MAD ***!                                                                                                          
+264	 1	Trolls are brothers of the rocks and have skin like that of a                                                                
+   	  	rhinoceros.  He fends off your blows effortlessly.                                                                           
+265	 1	The troll catches the axe, examines it, and tosses it back to you                                                            
+   	  	saying, "good workmanship, but not very valuable".                                                                           
+266	  	The troll catches your treasure and scurries away.                                                                           
+267	 1	The bear lumbers toward the troll, who emits a shriek and flees in                                                           
+   	  	terror.  The troll disappears into the gloom with the bear in pursuit.                                                       
+268	  	You attack a dwarf, but he jumps out of the way.                                                                             
+269	 1	You killed a little dwarf.  The body vanishes in a cloud of greasy                                                           
+   	  	black smoke.                                                                                                                 
+270	  	There is a threatening little dwarf in the room with you!                                                                    
+271	  	One sharp, nasty knife is thrown at you!                                                                                     
+272	 2	A bearded pirate steps from the shadows.  "Har har", he chortles,                                                            
+   	  	"I'll jest take this booty an' hide it in me chest deep in the maze!"                                                        
+   	  	He snatches your treasure and vanishes into the gloom.                                                                       
+273	  	There are strange whispering noises from the darkness behind you.                                                            
+274	  	The grate is open.                                                                                                           
+275	  	The grate is locked.                                                                                                         
+276	 1	The bird was unafraid when you entered, but it becomes frightened and                                                        
+   	  	flutters up out of your reach.                                                                                               
+277	  	The dome is unclimbable.                                                                                                     
+278	  	A crystal bridge spans the fissure.                                                                                          
+279	  	A huge fierce green snake bars the way!                                                                                      
+280	  	A hollow voice says "Plugh".                                                                                                 
+281	  	The vase is now resting on the pillow.                                                                                       
+282	  	CRASH! TINKLE!  The Ming vase shatters into worthless crockery.                                                              
+283	  	You fell into a pit and broke every bone in your body!                                                                       
+284	  	It is now pitch dark.  If you proceed you may fall into a pit.                                                               
+285	  	The nest of eggs has vanished.                                                                                               
+286	  	There is a tiny plant here, murmuring "water, water".                                                                        
+287	 1	There is a 12-foot beanstalk poking out of the pit, bellowing,                                                               
+   	  	"WATER! WATER!".                                                                                                             
+288	 1	The giant beanstalk stretches clear to the ceiling and through the hole                                                      
+   	  	at the top.                                                                                                                  
+289	  	You cannot get by the snake.                                                                                                 
+290	 1	The dragon has a rather "volatile" personality, and he will probably                                                         
+   	  	incinerate you if you get any closer.                                                                                        
+291	 1	You have crawled through some little holes and have wound up back in                                                         
+   	  	the main passage.                                                                                                            
+292	  	Something you are carrying will not fit through the tunnel.                                                                  
+293	 1	You load is too heavy.  You'd best take inventory and drop something                                                         
+   	  	first.                                                                                                                       
+294	  	The troll insists you throw him a treasure before you may cross.                                                             
+295	  	The troll pops from under the bridge and blocks your way.                                                                    
+296	  	A rusty iron door obstructs the passage to the north.                                                                        
+297	 1	The bear will bite off your hand.  Besides, the chain is locked to the                                                       
+   	  	wall.                                                                                                                        
+298	 1	It's rather difficult to move a 20-ton dragon, considering he is                                                             
+   	  	lying on the rug.                                                                                                            
+299	  	The vase is now resting on the pillow.                                                                                       
+300	  	A valiant attempt!                                                                                                           
+301	  	Nice try!                                                                                                                    
+302	  	A valiant attempt, but you are not that strong!                                                                              
+303	  	Do not be silly!                                                                                                             
+304	  	Do you have any ideas on how to do that?                                                                                     
+305	  	A huge dragon blocks the way.  The dragon is lying on a Persian rug!                                                         
+306	  	A burly troll stands beside the bridge, blocking your way.                                                                   
+307	  	The hinges are too rusty.  The door will not open.                                                                           
+308	  	There is a ferocious cave bear locked to the wall by a golden chain!                                                         
+309	  	There is a calm, friendly bear locked to the wall.                                                                           
+310	  	You are being followed by a large friendly bear.                                                                             
+311	  	With what?  Your bare hands?                                                                                                 
+312	 1	Congratulations!  You have just killed a huge dragon with your bare                                                          
+   	  	hands.  (Hard to believe, ain't it?)                                                                                         
+313	  	Attacking it is both dangerous and does not work.                                                                            
+314	  	What do you want to attack?                                                                                                  
+315	  	How can you do that to more than one thing at a time?                                                                        
+316	  	Thanks.  It was delicious.                                                                                                   
+317	  	I see nothing special about that.                                                                                            
+318	 1	Oh dear.  You seem to have gotten yourself killed.  Do you want me to                                                        
+   	  	try to patch you?	                                                                                                           
+319	 3	Ok, but don't blame me if something goes wr                                                                                  
+   	  	                ---POOF---                                                                                                   
+   	  	You are engulfed in a cloud of thick orange smoke, and you emerge                                                            
+   	  	coughing and gasping, and find that...                                                                                       
+320	 1	You clumsy oaf, you've done it again!  I don't know how long I can keep                                                      
+   	  	this up...                                                                                                                   
+321	 1	I'm all out of orange smoke, and you've used up all your available                                                           
+   	  	lives.  Better luck next time!                                                                                               
+322	  	The nest of golden eggs has vanished!                                                                                        
+323	 1	A little dwarf just walked around a corner, threw a little axe at you                                                        
+   	  	which missed, cursed, and ran away.                                                                                          
+324	  	The nest of golden eggs has reappeared!                                                                                      
+325	  	Welcome to Adventure, would you like instructions?	                                                                          
+326	21	Somewhere nearby is Colossal Cave, where many have found gold and                                                            
+   	  	treasure, though it is rumored that some who enter are never seen                                                            
+   	  	again.  I will be your eyes and hands.  Direct me with commands such as                                                      
+   	  	get, take, or look.  Since you need to move around, you must usually                                                         
+      	enter compass directions (N, NE, E, SE, S, SW, W, NW, or up or down),                                                        
+      	although you may sometimes use more vague verbs with which to move.                                                          
+   	  	I know of several objects in this game, such as a lamp and a bottle.                                                         
+   	  	I also know of special objects in the cave.  Some of these objects have                                                      
+   	  	side effects.  For example, there is a rod in the cave that scares a                                                         
+   	  	little bird.  The object of the game is to gather as many treasures as                                                       
+   	  	you can and put them back in the house.  You also run the risk of                                                            
+   	  	getting robbed or killed by some rather unfriendly inhabitants of the                                                        
+   	  	cave.  There are some useful commands that you should know about:                                                            
+   	  	Brief, long, and short - control the detail you get in descriptions.                                                         
+   	  	Look (or L) - gives a detailed description of your surroundings.                                                             
+   	  	Inventory (or I) - tells you what you are carrying.                                                                          
+   	  	Quit, stop, or end - self explanatory.                                                                                       
+   	  	Save - saves your game so you can continue it at a later time.                                                               
+   	  	Load - lets you resume a saved game.                                                                                         
+   	  	Score - tells you how well you're doing.                                                                                     
+   	  	You may type multiple commands such as:                                                                                      
+   	  	"Go south.  Get car, keys.  Start car." (example only).  Good luck!	                                                         
+327	  	I am sorry but the magazine is written in Dwarvish.                                                                          
+328	  	What do you want to do with the                                                                                              
+329	  	It gets you!                                                                                                                 
+330	  	It misses!                                                                                                                   
+331	  	Oh, well...                                                                                                                  
+332	  	I do not understand.                                                                                                         
+333	  	I cannot understand that.                                                                                                    
+334	  	I do not know that word.                                                                                                     
+335	  	You do not have the bottle.                                                                                                  
+336	  	The bottle is now filled.                                                                                                    
+337	  	The lamp is now on.                                                                                                          
+338	  	The lamp is now off.                                                                                                         
+339	  	You do not have the food.                                                                                                    
+340	  	You do not have any water.                                                                                                   
+341	  	Throw what?                                                                                                                  
+342	  	Short descriptions.                                                                                                          
+343	  	Long descriptions.                                                                                                           
+344	  	Ok, I will only describe the room in detail the first time.                                                                  
+345	  	Do you want to save the game for later?	                                                                                     
+346	  	That is not a valid RID or the RID does not contain a saved game.                                                            
+347	  	I do not know where it is.  You must find it yourself.                                                                       
+348	  	You do not have the magazine.                                                                                                
+349	  	That makes you a beginner adventurer.                                                                                        
+350	  	That makes you a novice adventurer.                                                                                          
+351	  	That makes you an experienced adventurer.                                                                                    
+352	  	That makes you an advanced adventurer.                                                                                       
+353	  	That makes you an expert adventurer.                                                                                         
+354	  	You do not have the keys.                                                                                                    
+355	  	Bird freed.                                                                                                                  
+356	  	Try saying "empty".                                                                                                          
+357	  	What do you want to do with the dragon then?                                                                                 
+358	  	Game saved in RID                                                                                                            
+359	  	You already have a loaded game!                                                                                              
+360	  	Load game from RID                                                                                                           
+361	  	Resuming saved game...                                                                                                       
+362	  	large gold nugget                                                                                                            
+363	  	bars of silver                                                                                                               
+364	  	precious jewelry                                                                                                             
+365	  	many coins                                                                                                                   
+366	  	several diamonds                                                                                                             
+367	  	fragile Ming vase                                                                                                            
+368	  	glistening pearl                                                                                                             
+369	  	nest of golden eggs                                                                                                          
+370	  	jewel-encrusted trident                                                                                                      
+371	  	egg-sized emerald                                                                                                            
+372	  	platinum pyramid                                                                                                             
+373	  	golden chain                                                                                                                 
+374	  	rare spices                                                                                                                  
+375	  	Persian rug                                                                                                                  
+376	  	treasure chest                                                                                                               
+377	  	water                                                                                                                        
+378	  	oil                                                                                                                          
+379	  	brass lamp                                                                                                                   
+380	  	keys                                                                                                                         
+381	  	food                                                                                                                         
+382	  	bottle                                                                                                                       
+383	  	wicker cage                                                                                                                  
+384	  	3-foot black rod                                                                                                             
+385	  	clam                                                                                                                         
+386	  	magazine                                                                                                                     
+387	  	bear                                                                                                                         
+388	  	axe                                                                                                                          
+389	  	velvet pillow                                                                                                                
+390	  	shards of pottery                                                                                                            
+391	  	oyster                                                                                                                       
+392	  	bird                                                                                                                         
+393	  	troll                                                                                                                        
+394	  	dragon                                                                                                                       
+395	  	snake                                                                                                                        
+396	  	dwarf                                                                                                                        
+397	  	rock                                                                                                                         
+398	  	stairs                                                                                                                       
+399	  	house                                                                                                                        
+400	  	grate                                                                                                                        
+401	  	stream                                                                                                                       
+402	  	room                                                                                                                         
+403	  	bridge                                                                                                                       
+404	  	pit                                                                                                                          
+405	  	volcano                                                                                                                      
+406	  	road                                                                                                                         
+407	  	cave                                                                                                                         
+408	  	The little bird attacks the green snake and drives it off.                                                                   
+409	  	The little bird attacks the green dragon and gets burned to a crisp.                                                         
+410	  	You do not have the rod.                                                                                                     
+411	  	You do not have any oil.                                                                                                     
+412	  	Why not say "fill"?                                                                                                          
+413	  	I see no cage here.                                                                                                          
+414	  	You are welcome.                                                                                                             
+415	  	You cannot get there from here.                                                                                              
+416	  	Look who is talking!                                                                                                         
+417	  	I cannot feed it.                                                                                                            
+*******************************************************************************                                                     
+                                  Keywords                                    *                                                     
+===============================================================================                                                     
+001 Gold 001 Nugget 002 Bars 002 Silver 003 Jewelry 004 Coins 005 Diamonds                                                          
+006 Ming 006 Vase 007 Pearl 008 Eggs 008 Nest 009 Trident 010 Emerald                                                               
+011 Platinum 011 Pyramid 012 Chain 013 Spices 014 Persian 014 Rug 015 Treasure                                                      
+015 Chest 016 Water 017 Oil 018 Lamp 018 Lantern 019 Keys 020 Food 021 Bottle                                                       
+022 Cage 023 Rod 023 Wand 024 Clam 025 Magazine 026 Bear 027 Axe 028 Velvet                                                         
+028 Pillow 029 Shards 030 Oyster 031 Bird 032 Troll 033 Dragon 034 Snake                                                            
+035 Dwarf 036 Rock 036 Boulder 037 Stairs 037 Steps 038 House 038 Building                                                          
+039 Grate 039 Grill 040 Stream 040 River 040 Creek 041 Room 042 Bridge 043 Pit                                                      
+043 Hole 044 Volcano 045 Road 046 Cave 047 All 047 Everything 050 N 050 North                                                       
+051 NE 051 Northeast 052 E 052 East 053 SE 053 Southeast 054 S 054 South                                                            
+055 SW 055 Southwest 056 W 056 West 057 Nw 057 Northwest 058 U 058 Up 059 D                                                         
+059 Down 060 Plugh 061 XYZZY 062 Plover 063 Cross 064 Climb 065 Jump 065 Leap                                                       
+066 Fill 067 Empty 067 Pour 068 L 068 Look 069 On 069 Light 070 Extinguish                                                          
+070 Off 071 In 071 Enter 072 Out 072 Leave 072 Exit 073 I 073 Inventory                                                             
+074 Take 074 Catch 074 Get 075 Drop 075 Dump 076 Throw 076 Toss 076 Fling                                                           
+077 Attack 077 Kill 078 Feed 079 Water 080 Lock 081 Unlock 082 Release                                                              
+082 Free 083 Wave 084 Open 085 Close 086 Oil 087 Eat 088 Drink 103 Search                                                           
+089 FEE-FIE-FOE-FOO 090 Short 091 Long 092 Brief 093 Quit 093 Stop 093 End                                                          
+094 Score 095 Save 096 Load 097 Read 097 Examine 098 Yes 099 No 100 Thanks                                                          
+100 Thank 101 Hell 102 Stupid 102 Idiot 102 Dumb 102 Dummy 103 Find 103 Locate                                                      
+103 Search 103 Where                                                                                                                
